@@ -1,7 +1,7 @@
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/graph-puzzle-game-feyzgok.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/TestLinkedList.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/MathematicalExpression.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/Polynomial.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/DartsGame.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/graph-puzzle-game-feyzgok.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/TestLinkedList.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/MathematicalExpression.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/Polynomial.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/DartsGame.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/CMakeFiles/rebuild_cache.dir

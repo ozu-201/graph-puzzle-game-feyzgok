@@ -22,6 +22,7 @@ namespace list {
     }
 
     void Graph::addEdge(int from, int to, int weight) {
+        weight=1;
         Edge* edge = new Edge(from, to, weight);
         edges[from].insert(edge);
     }
