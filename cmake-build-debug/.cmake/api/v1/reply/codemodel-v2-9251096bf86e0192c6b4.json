@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -47,7 +49,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DartsGame::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DartsGame-Debug-b6b1c4a81e80603c57d1.json",
+					"jsonFile" : "target-DartsGame-Debug-7b018e1cd7c62f8b890e.json",
 					"name" : "DartsGame",
 					"projectIndex" : 0
 				},
@@ -78,6 +80,13 @@
 					"jsonFile" : "target-graph-puzzle-game-feyzgok-Debug-3f4e46a7515054715d54.json",
 					"name" : "graph-puzzle-game-feyzgok",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-fdba65b2386cf1efbaad.json",
+					"name" : "main",
+					"projectIndex" : 0
 				}
 			]
 		}
@@ -85,8 +94,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug",
-		"source" : "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok"
+		"build" : "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug",
+		"source" : "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok"
 	},
 	"version" : 
 	{

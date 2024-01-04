@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok
+CMAKE_SOURCE_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Polynomial.dir/depend.make
@@ -69,60 +69,60 @@ include CMakeFiles/Polynomial.dir/progress.make
 include CMakeFiles/Polynomial.dir/flags.make
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj: CMakeFiles/Polynomial.dir/flags.make
-CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TestPolynomial.cpp
+CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TestPolynomial.cpp
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj: CMakeFiles/Polynomial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TestPolynomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TestPolynomial.cpp
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TestPolynomial.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TestPolynomial.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.i
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TestPolynomial.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TestPolynomial.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TestPolynomial.cpp.s
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj: CMakeFiles/Polynomial.dir/flags.make
-CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Term.cpp
+CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Term.cpp
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj: CMakeFiles/Polynomial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Term.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Term.cpp
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Term.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Term.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.i
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Term.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Term.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Term.cpp.s
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj: CMakeFiles/Polynomial.dir/flags.make
-CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TermNode.cpp
+CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TermNode.cpp
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj: CMakeFiles/Polynomial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TermNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TermNode.cpp
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TermNode.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TermNode.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.i
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TermNode.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\TermNode.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\TermNode.cpp.s
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj: CMakeFiles/Polynomial.dir/flags.make
-CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Polynomial.cpp
+CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Polynomial.cpp
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj: CMakeFiles/Polynomial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Polynomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj -MF CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.obj.d -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Polynomial.cpp
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Polynomial.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Polynomial.cpp > CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.i
 
 CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Polynomial.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Polynomial\Polynomial.cpp -o CMakeFiles\Polynomial.dir\src\List\Polynomial\Polynomial.cpp.s
 
 # Object files for target Polynomial
 Polynomial_OBJECTS = \
@@ -142,7 +142,7 @@ Polynomial.exe: CMakeFiles/Polynomial.dir/build.make
 Polynomial.exe: CMakeFiles/Polynomial.dir/linkLibs.rsp
 Polynomial.exe: CMakeFiles/Polynomial.dir/objects1
 Polynomial.exe: CMakeFiles/Polynomial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Polynomial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Polynomial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Polynomial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/Polynomial.dir/clean:
 .PHONY : CMakeFiles/Polynomial.dir/clean
 
 CMakeFiles/Polynomial.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\Polynomial.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\Polynomial.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Polynomial.dir/depend
 

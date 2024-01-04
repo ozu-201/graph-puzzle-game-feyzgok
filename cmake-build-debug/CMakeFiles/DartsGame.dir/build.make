@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok
+CMAKE_SOURCE_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DartsGame.dir/depend.make
@@ -69,60 +69,60 @@ include CMakeFiles/DartsGame.dir/progress.make
 include CMakeFiles/DartsGame.dir/flags.make
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj: CMakeFiles/DartsGame.dir/flags.make
-CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/Element.cpp
+CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/Element.cpp
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj: CMakeFiles/DartsGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Element.cpp
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Element.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Element.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.i
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DartsGame.dir/src/Array/DartsGame/Element.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Element.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Element.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Element.cpp.s
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj: CMakeFiles/DartsGame.dir/flags.make
-CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/Queue.cpp
+CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/Queue.cpp
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj: CMakeFiles/DartsGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Queue.cpp
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Queue.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Queue.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.i
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DartsGame.dir/src/Array/DartsGame/Queue.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Queue.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Queue.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Queue.cpp.s
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj: CMakeFiles/DartsGame.dir/flags.make
-CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/Test.cpp
+CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/Test.cpp
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj: CMakeFiles/DartsGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Test.cpp
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Test.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Test.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.i
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DartsGame.dir/src/Array/DartsGame/Test.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Test.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\Test.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\Test.cpp.s
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj: CMakeFiles/DartsGame.dir/flags.make
-CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/State.cpp
+CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/DartsGame/State.cpp
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj: CMakeFiles/DartsGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.obj -MF CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.obj.d -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\State.cpp
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\State.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\State.cpp > CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.i
 
 CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DartsGame.dir/src/Array/DartsGame/State.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\State.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\DartsGame\State.cpp -o CMakeFiles\DartsGame.dir\src\Array\DartsGame\State.cpp.s
 
 # Object files for target DartsGame
 DartsGame_OBJECTS = \
@@ -142,7 +142,7 @@ DartsGame.exe: CMakeFiles/DartsGame.dir/build.make
 DartsGame.exe: CMakeFiles/DartsGame.dir/linkLibs.rsp
 DartsGame.exe: CMakeFiles/DartsGame.dir/objects1
 DartsGame.exe: CMakeFiles/DartsGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DartsGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DartsGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DartsGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/DartsGame.dir/clean:
 .PHONY : CMakeFiles/DartsGame.dir/clean
 
 CMakeFiles/DartsGame.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\DartsGame.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\DartsGame.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DartsGame.dir/depend
 

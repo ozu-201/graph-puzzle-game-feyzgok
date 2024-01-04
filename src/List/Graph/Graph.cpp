@@ -80,6 +80,28 @@ namespace list {
         }
     }
 
+    void Graph::myBreadthFirstSearch(bool* visited, int startNode, int endNode){
+        Edge* edge;
+        int fromNode, toNode;
+        Queue queue = Queue();
+        queue.enqueue(new Node(startNode, nullptr));
+        while (!queue.isEmpty()){
+            fromNode = queue.dequeue()->getData();
+            edge = edges[fromNode].getHead();
+            while (edge != nullptr) {
+                toNode = edge->getTo();
+                if (!visited[toNode]){
+                    visited[toNode] = true;
+                    queue.enqueue(new Node(toNode,fromNode));
+                    if(toNode==endNode){
+                        break;
+                    }
+                }
+                edge = edge->getNext();
+            }
+        }
+    }
+
     Path *Graph::bellmanFord(int source) {
         Edge* edge;
         Path* shortestPaths = initializePaths(source);

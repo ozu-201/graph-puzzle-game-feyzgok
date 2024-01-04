@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok
+CMAKE_SOURCE_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MathematicalExpression.dir/depend.make
@@ -69,60 +69,60 @@ include CMakeFiles/MathematicalExpression.dir/progress.make
 include CMakeFiles/MathematicalExpression.dir/flags.make
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj: CMakeFiles/MathematicalExpression.dir/flags.make
-CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Token.cpp
+CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Token.cpp
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj: CMakeFiles/MathematicalExpression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Token.cpp
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Token.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Token.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.i
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Token.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Token.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Token.cpp.s
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj: CMakeFiles/MathematicalExpression.dir/flags.make
-CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Element.cpp
+CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Element.cpp
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj: CMakeFiles/MathematicalExpression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Element.cpp
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Element.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Element.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.i
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Element.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Element.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Element.cpp.s
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj: CMakeFiles/MathematicalExpression.dir/flags.make
-CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Stack.cpp
+CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Stack.cpp
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj: CMakeFiles/MathematicalExpression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Stack.cpp
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Stack.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Stack.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.i
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Stack.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Stack.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Stack.cpp.s
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj: CMakeFiles/MathematicalExpression.dir/flags.make
-CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Evaluate.cpp
+CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Evaluate.cpp
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj: CMakeFiles/MathematicalExpression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Evaluate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj -MF CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.obj.d -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Evaluate.cpp
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Evaluate.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Evaluate.cpp > CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.i
 
 CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Evaluate.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\MathematicalExpression\Evaluate.cpp -o CMakeFiles\MathematicalExpression.dir\src\Array\MathematicalExpression\Evaluate.cpp.s
 
 # Object files for target MathematicalExpression
 MathematicalExpression_OBJECTS = \
@@ -142,7 +142,7 @@ MathematicalExpression.exe: CMakeFiles/MathematicalExpression.dir/build.make
 MathematicalExpression.exe: CMakeFiles/MathematicalExpression.dir/linkLibs.rsp
 MathematicalExpression.exe: CMakeFiles/MathematicalExpression.dir/objects1
 MathematicalExpression.exe: CMakeFiles/MathematicalExpression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MathematicalExpression.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MathematicalExpression.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MathematicalExpression.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/MathematicalExpression.dir/clean:
 .PHONY : CMakeFiles/MathematicalExpression.dir/clean
 
 CMakeFiles/MathematicalExpression.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\MathematicalExpression.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\MathematicalExpression.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MathematicalExpression.dir/depend
 

@@ -10,14 +10,21 @@ using namespace  std;
 
 class Node {
 private:
+
     int data;
     Node* next;
+    Node* parent;
 public:
-    explicit Node(int data);
+    explicit Node(int data, Node* parent);
     void setNext(Node* _next);
     Node* getNext();
     int getData();
     string to_string();
+    void setParent(Node *_parent);
+
+    Node(int data);
+
+    Node(int data, Node parent);
 };
 
 

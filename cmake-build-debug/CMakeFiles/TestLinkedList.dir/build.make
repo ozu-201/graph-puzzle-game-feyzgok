@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok
+CMAKE_SOURCE_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TestLinkedList.dir/depend.make
@@ -69,116 +69,116 @@ include CMakeFiles/TestLinkedList.dir/progress.make
 include CMakeFiles/TestLinkedList.dir/flags.make
 
 CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Node.cpp
+CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Node.cpp
 CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Node.cpp
 
 CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Node.cpp > CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Node.cpp > CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Node.cpp -o CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Node.cpp -o CMakeFiles\TestLinkedList.dir\src\List\Node.cpp.s
 
 CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/LinkedList.cpp
+CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/LinkedList.cpp
 CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\LinkedList.cpp
 
 CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\LinkedList.cpp > CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\LinkedList.cpp > CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\LinkedList.cpp -o CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\LinkedList.cpp -o CMakeFiles\TestLinkedList.dir\src\List\LinkedList.cpp.s
 
 CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/Test/LinkedListTest.cpp
+CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/Test/LinkedListTest.cpp
 CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj -MF CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\Test\LinkedListTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.obj -MF CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\Test\LinkedListTest.cpp
 
 CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\Test\LinkedListTest.cpp > CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\Test\LinkedListTest.cpp > CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.i
 
 CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/Test/LinkedListTest.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\Test\LinkedListTest.cpp -o CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\Test\LinkedListTest.cpp -o CMakeFiles\TestLinkedList.dir\Test\LinkedListTest.cpp.s
 
 CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/DoublyNode.cpp
+CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/DoublyNode.cpp
 CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyNode.cpp
 
 CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyNode.cpp > CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyNode.cpp > CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyNode.cpp -o CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyNode.cpp -o CMakeFiles\TestLinkedList.dir\src\List\DoublyNode.cpp.s
 
 CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/DoublyLinkedList.cpp
+CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/DoublyLinkedList.cpp
 CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyLinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyLinkedList.cpp
 
 CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyLinkedList.cpp > CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyLinkedList.cpp > CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyLinkedList.cpp -o CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\DoublyLinkedList.cpp -o CMakeFiles\TestLinkedList.dir\src\List\DoublyLinkedList.cpp.s
 
 CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/Element.cpp
+CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/Element.cpp
 CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Element.cpp
 
 CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Element.cpp > CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Element.cpp > CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Element.cpp -o CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Element.cpp -o CMakeFiles\TestLinkedList.dir\src\Array\Element.cpp.s
 
 CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/Stack.cpp
+CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/Stack.cpp
 CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Stack.cpp
 
 CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Stack.cpp > CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Stack.cpp > CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Stack.cpp -o CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\Array\Stack.cpp -o CMakeFiles\TestLinkedList.dir\src\Array\Stack.cpp.s
 
 CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj: CMakeFiles/TestLinkedList.dir/flags.make
-CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Stack.cpp
+CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Stack.cpp
 CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj: CMakeFiles/TestLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.obj -c C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj -MF CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.obj.d -o CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Stack.cpp
 
 CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Stack.cpp > CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Stack.cpp > CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.i
 
 CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Stack.cpp -o CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\src\List\Stack.cpp -o CMakeFiles\TestLinkedList.dir\src\List\Stack.cpp.s
 
 # Object files for target TestLinkedList
 TestLinkedList_OBJECTS = \
@@ -206,7 +206,7 @@ TestLinkedList.exe: CMakeFiles/TestLinkedList.dir/build.make
 TestLinkedList.exe: CMakeFiles/TestLinkedList.dir/linkLibs.rsp
 TestLinkedList.exe: CMakeFiles/TestLinkedList.dir/objects1
 TestLinkedList.exe: CMakeFiles/TestLinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TestLinkedList.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TestLinkedList.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestLinkedList.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -218,6 +218,6 @@ CMakeFiles/TestLinkedList.dir/clean:
 .PHONY : CMakeFiles/TestLinkedList.dir/clean
 
 CMakeFiles/TestLinkedList.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\TestLinkedList.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles\TestLinkedList.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TestLinkedList.dir/depend
 

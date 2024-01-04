@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok
+# Install script for directory: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

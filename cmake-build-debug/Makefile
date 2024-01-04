@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok
+CMAKE_SOURCE_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fg028327\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-feyzgok\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,6 +166,19 @@ Polynomial: cmake_check_build_system
 Polynomial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polynomial.dir\build.make CMakeFiles/Polynomial.dir/build
 .PHONY : Polynomial/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named DartsGame
@@ -306,6 +319,7 @@ src/Array/DisjointSet.obj: src/Array/DisjointSet.cpp.obj
 # target to build an object file
 src/Array/DisjointSet.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/DisjointSet.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/DisjointSet.cpp.obj
 .PHONY : src/Array/DisjointSet.cpp.obj
 
 src/Array/DisjointSet.i: src/Array/DisjointSet.cpp.i
@@ -314,6 +328,7 @@ src/Array/DisjointSet.i: src/Array/DisjointSet.cpp.i
 # target to preprocess a source file
 src/Array/DisjointSet.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/DisjointSet.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/DisjointSet.cpp.i
 .PHONY : src/Array/DisjointSet.cpp.i
 
 src/Array/DisjointSet.s: src/Array/DisjointSet.cpp.s
@@ -322,6 +337,7 @@ src/Array/DisjointSet.s: src/Array/DisjointSet.cpp.s
 # target to generate assembly for a file
 src/Array/DisjointSet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/DisjointSet.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/DisjointSet.cpp.s
 .PHONY : src/Array/DisjointSet.cpp.s
 
 src/Array/Element.obj: src/Array/Element.cpp.obj
@@ -331,6 +347,7 @@ src/Array/Element.obj: src/Array/Element.cpp.obj
 src/Array/Element.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Element.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Element.cpp.obj
 .PHONY : src/Array/Element.cpp.obj
 
 src/Array/Element.i: src/Array/Element.cpp.i
@@ -340,6 +357,7 @@ src/Array/Element.i: src/Array/Element.cpp.i
 src/Array/Element.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Element.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Element.cpp.i
 .PHONY : src/Array/Element.cpp.i
 
 src/Array/Element.s: src/Array/Element.cpp.s
@@ -349,6 +367,7 @@ src/Array/Element.s: src/Array/Element.cpp.s
 src/Array/Element.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Element.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/Array/Element.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Element.cpp.s
 .PHONY : src/Array/Element.cpp.s
 
 src/Array/Graph/Graph.obj: src/Array/Graph/Graph.cpp.obj
@@ -357,6 +376,7 @@ src/Array/Graph/Graph.obj: src/Array/Graph/Graph.cpp.obj
 # target to build an object file
 src/Array/Graph/Graph.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Graph/Graph.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Graph/Graph.cpp.obj
 .PHONY : src/Array/Graph/Graph.cpp.obj
 
 src/Array/Graph/Graph.i: src/Array/Graph/Graph.cpp.i
@@ -365,6 +385,7 @@ src/Array/Graph/Graph.i: src/Array/Graph/Graph.cpp.i
 # target to preprocess a source file
 src/Array/Graph/Graph.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Graph/Graph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Graph/Graph.cpp.i
 .PHONY : src/Array/Graph/Graph.cpp.i
 
 src/Array/Graph/Graph.s: src/Array/Graph/Graph.cpp.s
@@ -373,6 +394,7 @@ src/Array/Graph/Graph.s: src/Array/Graph/Graph.cpp.s
 # target to generate assembly for a file
 src/Array/Graph/Graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Graph/Graph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Graph/Graph.cpp.s
 .PHONY : src/Array/Graph/Graph.cpp.s
 
 src/Array/Hash.obj: src/Array/Hash.cpp.obj
@@ -381,6 +403,7 @@ src/Array/Hash.obj: src/Array/Hash.cpp.obj
 # target to build an object file
 src/Array/Hash.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Hash.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Hash.cpp.obj
 .PHONY : src/Array/Hash.cpp.obj
 
 src/Array/Hash.i: src/Array/Hash.cpp.i
@@ -389,6 +412,7 @@ src/Array/Hash.i: src/Array/Hash.cpp.i
 # target to preprocess a source file
 src/Array/Hash.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Hash.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Hash.cpp.i
 .PHONY : src/Array/Hash.cpp.i
 
 src/Array/Hash.s: src/Array/Hash.cpp.s
@@ -397,6 +421,7 @@ src/Array/Hash.s: src/Array/Hash.cpp.s
 # target to generate assembly for a file
 src/Array/Hash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Hash.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Hash.cpp.s
 .PHONY : src/Array/Hash.cpp.s
 
 src/Array/Heap/DHeap.obj: src/Array/Heap/DHeap.cpp.obj
@@ -405,6 +430,7 @@ src/Array/Heap/DHeap.obj: src/Array/Heap/DHeap.cpp.obj
 # target to build an object file
 src/Array/Heap/DHeap.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/DHeap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/DHeap.cpp.obj
 .PHONY : src/Array/Heap/DHeap.cpp.obj
 
 src/Array/Heap/DHeap.i: src/Array/Heap/DHeap.cpp.i
@@ -413,6 +439,7 @@ src/Array/Heap/DHeap.i: src/Array/Heap/DHeap.cpp.i
 # target to preprocess a source file
 src/Array/Heap/DHeap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/DHeap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/DHeap.cpp.i
 .PHONY : src/Array/Heap/DHeap.cpp.i
 
 src/Array/Heap/DHeap.s: src/Array/Heap/DHeap.cpp.s
@@ -421,6 +448,7 @@ src/Array/Heap/DHeap.s: src/Array/Heap/DHeap.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/DHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/DHeap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/DHeap.cpp.s
 .PHONY : src/Array/Heap/DHeap.cpp.s
 
 src/Array/Heap/Heap.obj: src/Array/Heap/Heap.cpp.obj
@@ -429,6 +457,7 @@ src/Array/Heap/Heap.obj: src/Array/Heap/Heap.cpp.obj
 # target to build an object file
 src/Array/Heap/Heap.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/Heap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/Heap.cpp.obj
 .PHONY : src/Array/Heap/Heap.cpp.obj
 
 src/Array/Heap/Heap.i: src/Array/Heap/Heap.cpp.i
@@ -437,6 +466,7 @@ src/Array/Heap/Heap.i: src/Array/Heap/Heap.cpp.i
 # target to preprocess a source file
 src/Array/Heap/Heap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/Heap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/Heap.cpp.i
 .PHONY : src/Array/Heap/Heap.cpp.i
 
 src/Array/Heap/Heap.s: src/Array/Heap/Heap.cpp.s
@@ -445,6 +475,7 @@ src/Array/Heap/Heap.s: src/Array/Heap/Heap.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/Heap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/Heap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/Heap.cpp.s
 .PHONY : src/Array/Heap/Heap.cpp.s
 
 src/Array/Heap/HeapNode.obj: src/Array/Heap/HeapNode.cpp.obj
@@ -453,6 +484,7 @@ src/Array/Heap/HeapNode.obj: src/Array/Heap/HeapNode.cpp.obj
 # target to build an object file
 src/Array/Heap/HeapNode.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/HeapNode.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/HeapNode.cpp.obj
 .PHONY : src/Array/Heap/HeapNode.cpp.obj
 
 src/Array/Heap/HeapNode.i: src/Array/Heap/HeapNode.cpp.i
@@ -461,6 +493,7 @@ src/Array/Heap/HeapNode.i: src/Array/Heap/HeapNode.cpp.i
 # target to preprocess a source file
 src/Array/Heap/HeapNode.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/HeapNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/HeapNode.cpp.i
 .PHONY : src/Array/Heap/HeapNode.cpp.i
 
 src/Array/Heap/HeapNode.s: src/Array/Heap/HeapNode.cpp.s
@@ -469,6 +502,7 @@ src/Array/Heap/HeapNode.s: src/Array/Heap/HeapNode.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/HeapNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/HeapNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/HeapNode.cpp.s
 .PHONY : src/Array/Heap/HeapNode.cpp.s
 
 src/Array/Heap/MaxDHeap.obj: src/Array/Heap/MaxDHeap.cpp.obj
@@ -477,6 +511,7 @@ src/Array/Heap/MaxDHeap.obj: src/Array/Heap/MaxDHeap.cpp.obj
 # target to build an object file
 src/Array/Heap/MaxDHeap.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MaxDHeap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MaxDHeap.cpp.obj
 .PHONY : src/Array/Heap/MaxDHeap.cpp.obj
 
 src/Array/Heap/MaxDHeap.i: src/Array/Heap/MaxDHeap.cpp.i
@@ -485,6 +520,7 @@ src/Array/Heap/MaxDHeap.i: src/Array/Heap/MaxDHeap.cpp.i
 # target to preprocess a source file
 src/Array/Heap/MaxDHeap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MaxDHeap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MaxDHeap.cpp.i
 .PHONY : src/Array/Heap/MaxDHeap.cpp.i
 
 src/Array/Heap/MaxDHeap.s: src/Array/Heap/MaxDHeap.cpp.s
@@ -493,6 +529,7 @@ src/Array/Heap/MaxDHeap.s: src/Array/Heap/MaxDHeap.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/MaxDHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MaxDHeap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MaxDHeap.cpp.s
 .PHONY : src/Array/Heap/MaxDHeap.cpp.s
 
 src/Array/Heap/MaxHeap.obj: src/Array/Heap/MaxHeap.cpp.obj
@@ -501,6 +538,7 @@ src/Array/Heap/MaxHeap.obj: src/Array/Heap/MaxHeap.cpp.obj
 # target to build an object file
 src/Array/Heap/MaxHeap.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MaxHeap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MaxHeap.cpp.obj
 .PHONY : src/Array/Heap/MaxHeap.cpp.obj
 
 src/Array/Heap/MaxHeap.i: src/Array/Heap/MaxHeap.cpp.i
@@ -509,6 +547,7 @@ src/Array/Heap/MaxHeap.i: src/Array/Heap/MaxHeap.cpp.i
 # target to preprocess a source file
 src/Array/Heap/MaxHeap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MaxHeap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MaxHeap.cpp.i
 .PHONY : src/Array/Heap/MaxHeap.cpp.i
 
 src/Array/Heap/MaxHeap.s: src/Array/Heap/MaxHeap.cpp.s
@@ -517,6 +556,7 @@ src/Array/Heap/MaxHeap.s: src/Array/Heap/MaxHeap.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/MaxHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MaxHeap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MaxHeap.cpp.s
 .PHONY : src/Array/Heap/MaxHeap.cpp.s
 
 src/Array/Heap/MinDHeap.obj: src/Array/Heap/MinDHeap.cpp.obj
@@ -525,6 +565,7 @@ src/Array/Heap/MinDHeap.obj: src/Array/Heap/MinDHeap.cpp.obj
 # target to build an object file
 src/Array/Heap/MinDHeap.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MinDHeap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MinDHeap.cpp.obj
 .PHONY : src/Array/Heap/MinDHeap.cpp.obj
 
 src/Array/Heap/MinDHeap.i: src/Array/Heap/MinDHeap.cpp.i
@@ -533,6 +574,7 @@ src/Array/Heap/MinDHeap.i: src/Array/Heap/MinDHeap.cpp.i
 # target to preprocess a source file
 src/Array/Heap/MinDHeap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MinDHeap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MinDHeap.cpp.i
 .PHONY : src/Array/Heap/MinDHeap.cpp.i
 
 src/Array/Heap/MinDHeap.s: src/Array/Heap/MinDHeap.cpp.s
@@ -541,6 +583,7 @@ src/Array/Heap/MinDHeap.s: src/Array/Heap/MinDHeap.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/MinDHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MinDHeap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MinDHeap.cpp.s
 .PHONY : src/Array/Heap/MinDHeap.cpp.s
 
 src/Array/Heap/MinHeap.obj: src/Array/Heap/MinHeap.cpp.obj
@@ -549,6 +592,7 @@ src/Array/Heap/MinHeap.obj: src/Array/Heap/MinHeap.cpp.obj
 # target to build an object file
 src/Array/Heap/MinHeap.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MinHeap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MinHeap.cpp.obj
 .PHONY : src/Array/Heap/MinHeap.cpp.obj
 
 src/Array/Heap/MinHeap.i: src/Array/Heap/MinHeap.cpp.i
@@ -557,6 +601,7 @@ src/Array/Heap/MinHeap.i: src/Array/Heap/MinHeap.cpp.i
 # target to preprocess a source file
 src/Array/Heap/MinHeap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MinHeap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MinHeap.cpp.i
 .PHONY : src/Array/Heap/MinHeap.cpp.i
 
 src/Array/Heap/MinHeap.s: src/Array/Heap/MinHeap.cpp.s
@@ -565,6 +610,7 @@ src/Array/Heap/MinHeap.s: src/Array/Heap/MinHeap.cpp.s
 # target to generate assembly for a file
 src/Array/Heap/MinHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Heap/MinHeap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Heap/MinHeap.cpp.s
 .PHONY : src/Array/Heap/MinHeap.cpp.s
 
 src/Array/MathematicalExpression/Element.obj: src/Array/MathematicalExpression/Element.cpp.obj
@@ -669,6 +715,7 @@ src/Array/Queue.obj: src/Array/Queue.cpp.obj
 # target to build an object file
 src/Array/Queue.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Queue.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Queue.cpp.obj
 .PHONY : src/Array/Queue.cpp.obj
 
 src/Array/Queue.i: src/Array/Queue.cpp.i
@@ -677,6 +724,7 @@ src/Array/Queue.i: src/Array/Queue.cpp.i
 # target to preprocess a source file
 src/Array/Queue.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Queue.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Queue.cpp.i
 .PHONY : src/Array/Queue.cpp.i
 
 src/Array/Queue.s: src/Array/Queue.cpp.s
@@ -685,6 +733,7 @@ src/Array/Queue.s: src/Array/Queue.cpp.s
 # target to generate assembly for a file
 src/Array/Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Queue.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Queue.cpp.s
 .PHONY : src/Array/Queue.cpp.s
 
 src/Array/Set.obj: src/Array/Set.cpp.obj
@@ -693,6 +742,7 @@ src/Array/Set.obj: src/Array/Set.cpp.obj
 # target to build an object file
 src/Array/Set.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Set.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Set.cpp.obj
 .PHONY : src/Array/Set.cpp.obj
 
 src/Array/Set.i: src/Array/Set.cpp.i
@@ -701,6 +751,7 @@ src/Array/Set.i: src/Array/Set.cpp.i
 # target to preprocess a source file
 src/Array/Set.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Set.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Set.cpp.i
 .PHONY : src/Array/Set.cpp.i
 
 src/Array/Set.s: src/Array/Set.cpp.s
@@ -709,6 +760,7 @@ src/Array/Set.s: src/Array/Set.cpp.s
 # target to generate assembly for a file
 src/Array/Set.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Set.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Set.cpp.s
 .PHONY : src/Array/Set.cpp.s
 
 src/Array/Sort/BubbleSort.obj: src/Array/Sort/BubbleSort.cpp.obj
@@ -717,6 +769,7 @@ src/Array/Sort/BubbleSort.obj: src/Array/Sort/BubbleSort.cpp.obj
 # target to build an object file
 src/Array/Sort/BubbleSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/BubbleSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/BubbleSort.cpp.obj
 .PHONY : src/Array/Sort/BubbleSort.cpp.obj
 
 src/Array/Sort/BubbleSort.i: src/Array/Sort/BubbleSort.cpp.i
@@ -725,6 +778,7 @@ src/Array/Sort/BubbleSort.i: src/Array/Sort/BubbleSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/BubbleSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/BubbleSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/BubbleSort.cpp.i
 .PHONY : src/Array/Sort/BubbleSort.cpp.i
 
 src/Array/Sort/BubbleSort.s: src/Array/Sort/BubbleSort.cpp.s
@@ -733,6 +787,7 @@ src/Array/Sort/BubbleSort.s: src/Array/Sort/BubbleSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/BubbleSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/BubbleSort.cpp.s
 .PHONY : src/Array/Sort/BubbleSort.cpp.s
 
 src/Array/Sort/BucketSort.obj: src/Array/Sort/BucketSort.cpp.obj
@@ -741,6 +796,7 @@ src/Array/Sort/BucketSort.obj: src/Array/Sort/BucketSort.cpp.obj
 # target to build an object file
 src/Array/Sort/BucketSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/BucketSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/BucketSort.cpp.obj
 .PHONY : src/Array/Sort/BucketSort.cpp.obj
 
 src/Array/Sort/BucketSort.i: src/Array/Sort/BucketSort.cpp.i
@@ -749,6 +805,7 @@ src/Array/Sort/BucketSort.i: src/Array/Sort/BucketSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/BucketSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/BucketSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/BucketSort.cpp.i
 .PHONY : src/Array/Sort/BucketSort.cpp.i
 
 src/Array/Sort/BucketSort.s: src/Array/Sort/BucketSort.cpp.s
@@ -757,6 +814,7 @@ src/Array/Sort/BucketSort.s: src/Array/Sort/BucketSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/BucketSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/BucketSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/BucketSort.cpp.s
 .PHONY : src/Array/Sort/BucketSort.cpp.s
 
 src/Array/Sort/HeapSort.obj: src/Array/Sort/HeapSort.cpp.obj
@@ -765,6 +823,7 @@ src/Array/Sort/HeapSort.obj: src/Array/Sort/HeapSort.cpp.obj
 # target to build an object file
 src/Array/Sort/HeapSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/HeapSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/HeapSort.cpp.obj
 .PHONY : src/Array/Sort/HeapSort.cpp.obj
 
 src/Array/Sort/HeapSort.i: src/Array/Sort/HeapSort.cpp.i
@@ -773,6 +832,7 @@ src/Array/Sort/HeapSort.i: src/Array/Sort/HeapSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/HeapSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/HeapSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/HeapSort.cpp.i
 .PHONY : src/Array/Sort/HeapSort.cpp.i
 
 src/Array/Sort/HeapSort.s: src/Array/Sort/HeapSort.cpp.s
@@ -781,6 +841,7 @@ src/Array/Sort/HeapSort.s: src/Array/Sort/HeapSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/HeapSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/HeapSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/HeapSort.cpp.s
 .PHONY : src/Array/Sort/HeapSort.cpp.s
 
 src/Array/Sort/InsertionSort.obj: src/Array/Sort/InsertionSort.cpp.obj
@@ -789,6 +850,7 @@ src/Array/Sort/InsertionSort.obj: src/Array/Sort/InsertionSort.cpp.obj
 # target to build an object file
 src/Array/Sort/InsertionSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/InsertionSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/InsertionSort.cpp.obj
 .PHONY : src/Array/Sort/InsertionSort.cpp.obj
 
 src/Array/Sort/InsertionSort.i: src/Array/Sort/InsertionSort.cpp.i
@@ -797,6 +859,7 @@ src/Array/Sort/InsertionSort.i: src/Array/Sort/InsertionSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/InsertionSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/InsertionSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/InsertionSort.cpp.i
 .PHONY : src/Array/Sort/InsertionSort.cpp.i
 
 src/Array/Sort/InsertionSort.s: src/Array/Sort/InsertionSort.cpp.s
@@ -805,6 +868,7 @@ src/Array/Sort/InsertionSort.s: src/Array/Sort/InsertionSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/InsertionSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/InsertionSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/InsertionSort.cpp.s
 .PHONY : src/Array/Sort/InsertionSort.cpp.s
 
 src/Array/Sort/MergeSort.obj: src/Array/Sort/MergeSort.cpp.obj
@@ -813,6 +877,7 @@ src/Array/Sort/MergeSort.obj: src/Array/Sort/MergeSort.cpp.obj
 # target to build an object file
 src/Array/Sort/MergeSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/MergeSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/MergeSort.cpp.obj
 .PHONY : src/Array/Sort/MergeSort.cpp.obj
 
 src/Array/Sort/MergeSort.i: src/Array/Sort/MergeSort.cpp.i
@@ -821,6 +886,7 @@ src/Array/Sort/MergeSort.i: src/Array/Sort/MergeSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/MergeSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/MergeSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/MergeSort.cpp.i
 .PHONY : src/Array/Sort/MergeSort.cpp.i
 
 src/Array/Sort/MergeSort.s: src/Array/Sort/MergeSort.cpp.s
@@ -829,6 +895,7 @@ src/Array/Sort/MergeSort.s: src/Array/Sort/MergeSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/MergeSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/MergeSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/MergeSort.cpp.s
 .PHONY : src/Array/Sort/MergeSort.cpp.s
 
 src/Array/Sort/QuickSort.obj: src/Array/Sort/QuickSort.cpp.obj
@@ -837,6 +904,7 @@ src/Array/Sort/QuickSort.obj: src/Array/Sort/QuickSort.cpp.obj
 # target to build an object file
 src/Array/Sort/QuickSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/QuickSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/QuickSort.cpp.obj
 .PHONY : src/Array/Sort/QuickSort.cpp.obj
 
 src/Array/Sort/QuickSort.i: src/Array/Sort/QuickSort.cpp.i
@@ -845,6 +913,7 @@ src/Array/Sort/QuickSort.i: src/Array/Sort/QuickSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/QuickSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/QuickSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/QuickSort.cpp.i
 .PHONY : src/Array/Sort/QuickSort.cpp.i
 
 src/Array/Sort/QuickSort.s: src/Array/Sort/QuickSort.cpp.s
@@ -853,6 +922,7 @@ src/Array/Sort/QuickSort.s: src/Array/Sort/QuickSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/QuickSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/QuickSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/QuickSort.cpp.s
 .PHONY : src/Array/Sort/QuickSort.cpp.s
 
 src/Array/Sort/SelectionSort.obj: src/Array/Sort/SelectionSort.cpp.obj
@@ -861,6 +931,7 @@ src/Array/Sort/SelectionSort.obj: src/Array/Sort/SelectionSort.cpp.obj
 # target to build an object file
 src/Array/Sort/SelectionSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/SelectionSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/SelectionSort.cpp.obj
 .PHONY : src/Array/Sort/SelectionSort.cpp.obj
 
 src/Array/Sort/SelectionSort.i: src/Array/Sort/SelectionSort.cpp.i
@@ -869,6 +940,7 @@ src/Array/Sort/SelectionSort.i: src/Array/Sort/SelectionSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/SelectionSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/SelectionSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/SelectionSort.cpp.i
 .PHONY : src/Array/Sort/SelectionSort.cpp.i
 
 src/Array/Sort/SelectionSort.s: src/Array/Sort/SelectionSort.cpp.s
@@ -877,6 +949,7 @@ src/Array/Sort/SelectionSort.s: src/Array/Sort/SelectionSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/SelectionSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/SelectionSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/SelectionSort.cpp.s
 .PHONY : src/Array/Sort/SelectionSort.cpp.s
 
 src/Array/Sort/ShellSort.obj: src/Array/Sort/ShellSort.cpp.obj
@@ -885,6 +958,7 @@ src/Array/Sort/ShellSort.obj: src/Array/Sort/ShellSort.cpp.obj
 # target to build an object file
 src/Array/Sort/ShellSort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/ShellSort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/ShellSort.cpp.obj
 .PHONY : src/Array/Sort/ShellSort.cpp.obj
 
 src/Array/Sort/ShellSort.i: src/Array/Sort/ShellSort.cpp.i
@@ -893,6 +967,7 @@ src/Array/Sort/ShellSort.i: src/Array/Sort/ShellSort.cpp.i
 # target to preprocess a source file
 src/Array/Sort/ShellSort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/ShellSort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/ShellSort.cpp.i
 .PHONY : src/Array/Sort/ShellSort.cpp.i
 
 src/Array/Sort/ShellSort.s: src/Array/Sort/ShellSort.cpp.s
@@ -901,6 +976,7 @@ src/Array/Sort/ShellSort.s: src/Array/Sort/ShellSort.cpp.s
 # target to generate assembly for a file
 src/Array/Sort/ShellSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Sort/ShellSort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Sort/ShellSort.cpp.s
 .PHONY : src/Array/Sort/ShellSort.cpp.s
 
 src/Array/Stack.obj: src/Array/Stack.cpp.obj
@@ -910,6 +986,7 @@ src/Array/Stack.obj: src/Array/Stack.cpp.obj
 src/Array/Stack.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Stack.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Stack.cpp.obj
 .PHONY : src/Array/Stack.cpp.obj
 
 src/Array/Stack.i: src/Array/Stack.cpp.i
@@ -919,6 +996,7 @@ src/Array/Stack.i: src/Array/Stack.cpp.i
 src/Array/Stack.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Stack.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Stack.cpp.i
 .PHONY : src/Array/Stack.cpp.i
 
 src/Array/Stack.s: src/Array/Stack.cpp.s
@@ -928,6 +1006,7 @@ src/Array/Stack.s: src/Array/Stack.cpp.s
 src/Array/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Array/Stack.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/Array/Stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Array/Stack.cpp.s
 .PHONY : src/Array/Stack.cpp.s
 
 src/General/AbstractGraph.obj: src/General/AbstractGraph.cpp.obj
@@ -936,6 +1015,7 @@ src/General/AbstractGraph.obj: src/General/AbstractGraph.cpp.obj
 # target to build an object file
 src/General/AbstractGraph.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/General/AbstractGraph.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/General/AbstractGraph.cpp.obj
 .PHONY : src/General/AbstractGraph.cpp.obj
 
 src/General/AbstractGraph.i: src/General/AbstractGraph.cpp.i
@@ -944,6 +1024,7 @@ src/General/AbstractGraph.i: src/General/AbstractGraph.cpp.i
 # target to preprocess a source file
 src/General/AbstractGraph.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/General/AbstractGraph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/General/AbstractGraph.cpp.i
 .PHONY : src/General/AbstractGraph.cpp.i
 
 src/General/AbstractGraph.s: src/General/AbstractGraph.cpp.s
@@ -952,6 +1033,7 @@ src/General/AbstractGraph.s: src/General/AbstractGraph.cpp.s
 # target to generate assembly for a file
 src/General/AbstractGraph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/General/AbstractGraph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/General/AbstractGraph.cpp.s
 .PHONY : src/General/AbstractGraph.cpp.s
 
 src/General/Path.obj: src/General/Path.cpp.obj
@@ -960,6 +1042,7 @@ src/General/Path.obj: src/General/Path.cpp.obj
 # target to build an object file
 src/General/Path.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/General/Path.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/General/Path.cpp.obj
 .PHONY : src/General/Path.cpp.obj
 
 src/General/Path.i: src/General/Path.cpp.i
@@ -968,6 +1051,7 @@ src/General/Path.i: src/General/Path.cpp.i
 # target to preprocess a source file
 src/General/Path.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/General/Path.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/General/Path.cpp.i
 .PHONY : src/General/Path.cpp.i
 
 src/General/Path.s: src/General/Path.cpp.s
@@ -976,6 +1060,7 @@ src/General/Path.s: src/General/Path.cpp.s
 # target to generate assembly for a file
 src/General/Path.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/General/Path.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/General/Path.cpp.s
 .PHONY : src/General/Path.cpp.s
 
 src/List/DoublyLinkedList.obj: src/List/DoublyLinkedList.cpp.obj
@@ -985,6 +1070,7 @@ src/List/DoublyLinkedList.obj: src/List/DoublyLinkedList.cpp.obj
 src/List/DoublyLinkedList.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/DoublyLinkedList.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/DoublyLinkedList.cpp.obj
 .PHONY : src/List/DoublyLinkedList.cpp.obj
 
 src/List/DoublyLinkedList.i: src/List/DoublyLinkedList.cpp.i
@@ -994,6 +1080,7 @@ src/List/DoublyLinkedList.i: src/List/DoublyLinkedList.cpp.i
 src/List/DoublyLinkedList.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/DoublyLinkedList.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/DoublyLinkedList.cpp.i
 .PHONY : src/List/DoublyLinkedList.cpp.i
 
 src/List/DoublyLinkedList.s: src/List/DoublyLinkedList.cpp.s
@@ -1003,6 +1090,7 @@ src/List/DoublyLinkedList.s: src/List/DoublyLinkedList.cpp.s
 src/List/DoublyLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/DoublyLinkedList.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/DoublyLinkedList.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/DoublyLinkedList.cpp.s
 .PHONY : src/List/DoublyLinkedList.cpp.s
 
 src/List/DoublyNode.obj: src/List/DoublyNode.cpp.obj
@@ -1012,6 +1100,7 @@ src/List/DoublyNode.obj: src/List/DoublyNode.cpp.obj
 src/List/DoublyNode.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/DoublyNode.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/DoublyNode.cpp.obj
 .PHONY : src/List/DoublyNode.cpp.obj
 
 src/List/DoublyNode.i: src/List/DoublyNode.cpp.i
@@ -1021,6 +1110,7 @@ src/List/DoublyNode.i: src/List/DoublyNode.cpp.i
 src/List/DoublyNode.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/DoublyNode.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/DoublyNode.cpp.i
 .PHONY : src/List/DoublyNode.cpp.i
 
 src/List/DoublyNode.s: src/List/DoublyNode.cpp.s
@@ -1030,6 +1120,7 @@ src/List/DoublyNode.s: src/List/DoublyNode.cpp.s
 src/List/DoublyNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/DoublyNode.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/DoublyNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/DoublyNode.cpp.s
 .PHONY : src/List/DoublyNode.cpp.s
 
 src/List/Graph/Edge.obj: src/List/Graph/Edge.cpp.obj
@@ -1038,6 +1129,7 @@ src/List/Graph/Edge.obj: src/List/Graph/Edge.cpp.obj
 # target to build an object file
 src/List/Graph/Edge.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/Edge.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/Edge.cpp.obj
 .PHONY : src/List/Graph/Edge.cpp.obj
 
 src/List/Graph/Edge.i: src/List/Graph/Edge.cpp.i
@@ -1046,6 +1138,7 @@ src/List/Graph/Edge.i: src/List/Graph/Edge.cpp.i
 # target to preprocess a source file
 src/List/Graph/Edge.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/Edge.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/Edge.cpp.i
 .PHONY : src/List/Graph/Edge.cpp.i
 
 src/List/Graph/Edge.s: src/List/Graph/Edge.cpp.s
@@ -1054,6 +1147,7 @@ src/List/Graph/Edge.s: src/List/Graph/Edge.cpp.s
 # target to generate assembly for a file
 src/List/Graph/Edge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/Edge.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/Edge.cpp.s
 .PHONY : src/List/Graph/Edge.cpp.s
 
 src/List/Graph/EdgeList.obj: src/List/Graph/EdgeList.cpp.obj
@@ -1062,6 +1156,7 @@ src/List/Graph/EdgeList.obj: src/List/Graph/EdgeList.cpp.obj
 # target to build an object file
 src/List/Graph/EdgeList.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/EdgeList.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/EdgeList.cpp.obj
 .PHONY : src/List/Graph/EdgeList.cpp.obj
 
 src/List/Graph/EdgeList.i: src/List/Graph/EdgeList.cpp.i
@@ -1070,6 +1165,7 @@ src/List/Graph/EdgeList.i: src/List/Graph/EdgeList.cpp.i
 # target to preprocess a source file
 src/List/Graph/EdgeList.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/EdgeList.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/EdgeList.cpp.i
 .PHONY : src/List/Graph/EdgeList.cpp.i
 
 src/List/Graph/EdgeList.s: src/List/Graph/EdgeList.cpp.s
@@ -1078,6 +1174,7 @@ src/List/Graph/EdgeList.s: src/List/Graph/EdgeList.cpp.s
 # target to generate assembly for a file
 src/List/Graph/EdgeList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/EdgeList.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/EdgeList.cpp.s
 .PHONY : src/List/Graph/EdgeList.cpp.s
 
 src/List/Graph/Graph.obj: src/List/Graph/Graph.cpp.obj
@@ -1086,6 +1183,7 @@ src/List/Graph/Graph.obj: src/List/Graph/Graph.cpp.obj
 # target to build an object file
 src/List/Graph/Graph.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/Graph.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/Graph.cpp.obj
 .PHONY : src/List/Graph/Graph.cpp.obj
 
 src/List/Graph/Graph.i: src/List/Graph/Graph.cpp.i
@@ -1094,6 +1192,7 @@ src/List/Graph/Graph.i: src/List/Graph/Graph.cpp.i
 # target to preprocess a source file
 src/List/Graph/Graph.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/Graph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/Graph.cpp.i
 .PHONY : src/List/Graph/Graph.cpp.i
 
 src/List/Graph/Graph.s: src/List/Graph/Graph.cpp.s
@@ -1102,6 +1201,7 @@ src/List/Graph/Graph.s: src/List/Graph/Graph.cpp.s
 # target to generate assembly for a file
 src/List/Graph/Graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Graph/Graph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Graph/Graph.cpp.s
 .PHONY : src/List/Graph/Graph.cpp.s
 
 src/List/Hash.obj: src/List/Hash.cpp.obj
@@ -1110,6 +1210,7 @@ src/List/Hash.obj: src/List/Hash.cpp.obj
 # target to build an object file
 src/List/Hash.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Hash.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Hash.cpp.obj
 .PHONY : src/List/Hash.cpp.obj
 
 src/List/Hash.i: src/List/Hash.cpp.i
@@ -1118,6 +1219,7 @@ src/List/Hash.i: src/List/Hash.cpp.i
 # target to preprocess a source file
 src/List/Hash.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Hash.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Hash.cpp.i
 .PHONY : src/List/Hash.cpp.i
 
 src/List/Hash.s: src/List/Hash.cpp.s
@@ -1126,6 +1228,7 @@ src/List/Hash.s: src/List/Hash.cpp.s
 # target to generate assembly for a file
 src/List/Hash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Hash.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Hash.cpp.s
 .PHONY : src/List/Hash.cpp.s
 
 src/List/LinkedList.obj: src/List/LinkedList.cpp.obj
@@ -1135,6 +1238,7 @@ src/List/LinkedList.obj: src/List/LinkedList.cpp.obj
 src/List/LinkedList.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/LinkedList.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/LinkedList.cpp.obj
 .PHONY : src/List/LinkedList.cpp.obj
 
 src/List/LinkedList.i: src/List/LinkedList.cpp.i
@@ -1144,6 +1248,7 @@ src/List/LinkedList.i: src/List/LinkedList.cpp.i
 src/List/LinkedList.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/LinkedList.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/LinkedList.cpp.i
 .PHONY : src/List/LinkedList.cpp.i
 
 src/List/LinkedList.s: src/List/LinkedList.cpp.s
@@ -1153,6 +1258,7 @@ src/List/LinkedList.s: src/List/LinkedList.cpp.s
 src/List/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/LinkedList.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/LinkedList.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/LinkedList.cpp.s
 .PHONY : src/List/LinkedList.cpp.s
 
 src/List/Node.obj: src/List/Node.cpp.obj
@@ -1162,6 +1268,7 @@ src/List/Node.obj: src/List/Node.cpp.obj
 src/List/Node.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Node.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Node.cpp.obj
 .PHONY : src/List/Node.cpp.obj
 
 src/List/Node.i: src/List/Node.cpp.i
@@ -1171,6 +1278,7 @@ src/List/Node.i: src/List/Node.cpp.i
 src/List/Node.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Node.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Node.cpp.i
 .PHONY : src/List/Node.cpp.i
 
 src/List/Node.s: src/List/Node.cpp.s
@@ -1180,6 +1288,7 @@ src/List/Node.s: src/List/Node.cpp.s
 src/List/Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Node.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/Node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Node.cpp.s
 .PHONY : src/List/Node.cpp.s
 
 src/List/Polynomial/Polynomial.obj: src/List/Polynomial/Polynomial.cpp.obj
@@ -1284,6 +1393,7 @@ src/List/Queue.obj: src/List/Queue.cpp.obj
 # target to build an object file
 src/List/Queue.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Queue.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Queue.cpp.obj
 .PHONY : src/List/Queue.cpp.obj
 
 src/List/Queue.i: src/List/Queue.cpp.i
@@ -1292,6 +1402,7 @@ src/List/Queue.i: src/List/Queue.cpp.i
 # target to preprocess a source file
 src/List/Queue.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Queue.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Queue.cpp.i
 .PHONY : src/List/Queue.cpp.i
 
 src/List/Queue.s: src/List/Queue.cpp.s
@@ -1300,6 +1411,7 @@ src/List/Queue.s: src/List/Queue.cpp.s
 # target to generate assembly for a file
 src/List/Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Queue.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Queue.cpp.s
 .PHONY : src/List/Queue.cpp.s
 
 src/List/Stack.obj: src/List/Stack.cpp.obj
@@ -1309,6 +1421,7 @@ src/List/Stack.obj: src/List/Stack.cpp.obj
 src/List/Stack.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Stack.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Stack.cpp.obj
 .PHONY : src/List/Stack.cpp.obj
 
 src/List/Stack.i: src/List/Stack.cpp.i
@@ -1318,6 +1431,7 @@ src/List/Stack.i: src/List/Stack.cpp.i
 src/List/Stack.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Stack.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Stack.cpp.i
 .PHONY : src/List/Stack.cpp.i
 
 src/List/Stack.s: src/List/Stack.cpp.s
@@ -1327,6 +1441,7 @@ src/List/Stack.s: src/List/Stack.cpp.s
 src/List/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/List/Stack.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/src/List/Stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/List/Stack.cpp.s
 .PHONY : src/List/Stack.cpp.s
 
 src/Tree/AvlTree.obj: src/Tree/AvlTree.cpp.obj
@@ -1335,6 +1450,7 @@ src/Tree/AvlTree.obj: src/Tree/AvlTree.cpp.obj
 # target to build an object file
 src/Tree/AvlTree.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/AvlTree.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/AvlTree.cpp.obj
 .PHONY : src/Tree/AvlTree.cpp.obj
 
 src/Tree/AvlTree.i: src/Tree/AvlTree.cpp.i
@@ -1343,6 +1459,7 @@ src/Tree/AvlTree.i: src/Tree/AvlTree.cpp.i
 # target to preprocess a source file
 src/Tree/AvlTree.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/AvlTree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/AvlTree.cpp.i
 .PHONY : src/Tree/AvlTree.cpp.i
 
 src/Tree/AvlTree.s: src/Tree/AvlTree.cpp.s
@@ -1351,6 +1468,7 @@ src/Tree/AvlTree.s: src/Tree/AvlTree.cpp.s
 # target to generate assembly for a file
 src/Tree/AvlTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/AvlTree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/AvlTree.cpp.s
 .PHONY : src/Tree/AvlTree.cpp.s
 
 src/Tree/AvlTreeNode.obj: src/Tree/AvlTreeNode.cpp.obj
@@ -1359,6 +1477,7 @@ src/Tree/AvlTreeNode.obj: src/Tree/AvlTreeNode.cpp.obj
 # target to build an object file
 src/Tree/AvlTreeNode.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/AvlTreeNode.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/AvlTreeNode.cpp.obj
 .PHONY : src/Tree/AvlTreeNode.cpp.obj
 
 src/Tree/AvlTreeNode.i: src/Tree/AvlTreeNode.cpp.i
@@ -1367,6 +1486,7 @@ src/Tree/AvlTreeNode.i: src/Tree/AvlTreeNode.cpp.i
 # target to preprocess a source file
 src/Tree/AvlTreeNode.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/AvlTreeNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/AvlTreeNode.cpp.i
 .PHONY : src/Tree/AvlTreeNode.cpp.i
 
 src/Tree/AvlTreeNode.s: src/Tree/AvlTreeNode.cpp.s
@@ -1375,6 +1495,7 @@ src/Tree/AvlTreeNode.s: src/Tree/AvlTreeNode.cpp.s
 # target to generate assembly for a file
 src/Tree/AvlTreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/AvlTreeNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/AvlTreeNode.cpp.s
 .PHONY : src/Tree/AvlTreeNode.cpp.s
 
 src/Tree/BTree.obj: src/Tree/BTree.cpp.obj
@@ -1383,6 +1504,7 @@ src/Tree/BTree.obj: src/Tree/BTree.cpp.obj
 # target to build an object file
 src/Tree/BTree.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/BTree.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/BTree.cpp.obj
 .PHONY : src/Tree/BTree.cpp.obj
 
 src/Tree/BTree.i: src/Tree/BTree.cpp.i
@@ -1391,6 +1513,7 @@ src/Tree/BTree.i: src/Tree/BTree.cpp.i
 # target to preprocess a source file
 src/Tree/BTree.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/BTree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/BTree.cpp.i
 .PHONY : src/Tree/BTree.cpp.i
 
 src/Tree/BTree.s: src/Tree/BTree.cpp.s
@@ -1399,6 +1522,7 @@ src/Tree/BTree.s: src/Tree/BTree.cpp.s
 # target to generate assembly for a file
 src/Tree/BTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/BTree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/BTree.cpp.s
 .PHONY : src/Tree/BTree.cpp.s
 
 src/Tree/BTreeNode.obj: src/Tree/BTreeNode.cpp.obj
@@ -1407,6 +1531,7 @@ src/Tree/BTreeNode.obj: src/Tree/BTreeNode.cpp.obj
 # target to build an object file
 src/Tree/BTreeNode.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/BTreeNode.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/BTreeNode.cpp.obj
 .PHONY : src/Tree/BTreeNode.cpp.obj
 
 src/Tree/BTreeNode.i: src/Tree/BTreeNode.cpp.i
@@ -1415,6 +1540,7 @@ src/Tree/BTreeNode.i: src/Tree/BTreeNode.cpp.i
 # target to preprocess a source file
 src/Tree/BTreeNode.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/BTreeNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/BTreeNode.cpp.i
 .PHONY : src/Tree/BTreeNode.cpp.i
 
 src/Tree/BTreeNode.s: src/Tree/BTreeNode.cpp.s
@@ -1423,6 +1549,7 @@ src/Tree/BTreeNode.s: src/Tree/BTreeNode.cpp.s
 # target to generate assembly for a file
 src/Tree/BTreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/BTreeNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/BTreeNode.cpp.s
 .PHONY : src/Tree/BTreeNode.cpp.s
 
 src/Tree/Element.obj: src/Tree/Element.cpp.obj
@@ -1431,6 +1558,7 @@ src/Tree/Element.obj: src/Tree/Element.cpp.obj
 # target to build an object file
 src/Tree/Element.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Element.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Element.cpp.obj
 .PHONY : src/Tree/Element.cpp.obj
 
 src/Tree/Element.i: src/Tree/Element.cpp.i
@@ -1439,6 +1567,7 @@ src/Tree/Element.i: src/Tree/Element.cpp.i
 # target to preprocess a source file
 src/Tree/Element.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Element.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Element.cpp.i
 .PHONY : src/Tree/Element.cpp.i
 
 src/Tree/Element.s: src/Tree/Element.cpp.s
@@ -1447,6 +1576,7 @@ src/Tree/Element.s: src/Tree/Element.cpp.s
 # target to generate assembly for a file
 src/Tree/Element.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Element.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Element.cpp.s
 .PHONY : src/Tree/Element.cpp.s
 
 src/Tree/Queue.obj: src/Tree/Queue.cpp.obj
@@ -1455,6 +1585,7 @@ src/Tree/Queue.obj: src/Tree/Queue.cpp.obj
 # target to build an object file
 src/Tree/Queue.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Queue.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Queue.cpp.obj
 .PHONY : src/Tree/Queue.cpp.obj
 
 src/Tree/Queue.i: src/Tree/Queue.cpp.i
@@ -1463,6 +1594,7 @@ src/Tree/Queue.i: src/Tree/Queue.cpp.i
 # target to preprocess a source file
 src/Tree/Queue.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Queue.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Queue.cpp.i
 .PHONY : src/Tree/Queue.cpp.i
 
 src/Tree/Queue.s: src/Tree/Queue.cpp.s
@@ -1471,6 +1603,7 @@ src/Tree/Queue.s: src/Tree/Queue.cpp.s
 # target to generate assembly for a file
 src/Tree/Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Queue.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Queue.cpp.s
 .PHONY : src/Tree/Queue.cpp.s
 
 src/Tree/Stack.obj: src/Tree/Stack.cpp.obj
@@ -1479,6 +1612,7 @@ src/Tree/Stack.obj: src/Tree/Stack.cpp.obj
 # target to build an object file
 src/Tree/Stack.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Stack.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Stack.cpp.obj
 .PHONY : src/Tree/Stack.cpp.obj
 
 src/Tree/Stack.i: src/Tree/Stack.cpp.i
@@ -1487,6 +1621,7 @@ src/Tree/Stack.i: src/Tree/Stack.cpp.i
 # target to preprocess a source file
 src/Tree/Stack.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Stack.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Stack.cpp.i
 .PHONY : src/Tree/Stack.cpp.i
 
 src/Tree/Stack.s: src/Tree/Stack.cpp.s
@@ -1495,6 +1630,7 @@ src/Tree/Stack.s: src/Tree/Stack.cpp.s
 # target to generate assembly for a file
 src/Tree/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Stack.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Stack.cpp.s
 .PHONY : src/Tree/Stack.cpp.s
 
 src/Tree/Tree.obj: src/Tree/Tree.cpp.obj
@@ -1503,6 +1639,7 @@ src/Tree/Tree.obj: src/Tree/Tree.cpp.obj
 # target to build an object file
 src/Tree/Tree.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Tree.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Tree.cpp.obj
 .PHONY : src/Tree/Tree.cpp.obj
 
 src/Tree/Tree.i: src/Tree/Tree.cpp.i
@@ -1511,6 +1648,7 @@ src/Tree/Tree.i: src/Tree/Tree.cpp.i
 # target to preprocess a source file
 src/Tree/Tree.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Tree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Tree.cpp.i
 .PHONY : src/Tree/Tree.cpp.i
 
 src/Tree/Tree.s: src/Tree/Tree.cpp.s
@@ -1519,6 +1657,7 @@ src/Tree/Tree.s: src/Tree/Tree.cpp.s
 # target to generate assembly for a file
 src/Tree/Tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/Tree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/Tree.cpp.s
 .PHONY : src/Tree/Tree.cpp.s
 
 src/Tree/TreeNode.obj: src/Tree/TreeNode.cpp.obj
@@ -1527,6 +1666,7 @@ src/Tree/TreeNode.obj: src/Tree/TreeNode.cpp.obj
 # target to build an object file
 src/Tree/TreeNode.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/TreeNode.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/TreeNode.cpp.obj
 .PHONY : src/Tree/TreeNode.cpp.obj
 
 src/Tree/TreeNode.i: src/Tree/TreeNode.cpp.i
@@ -1535,6 +1675,7 @@ src/Tree/TreeNode.i: src/Tree/TreeNode.cpp.i
 # target to preprocess a source file
 src/Tree/TreeNode.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/TreeNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/TreeNode.cpp.i
 .PHONY : src/Tree/TreeNode.cpp.i
 
 src/Tree/TreeNode.s: src/Tree/TreeNode.cpp.s
@@ -1543,6 +1684,7 @@ src/Tree/TreeNode.s: src/Tree/TreeNode.cpp.s
 # target to generate assembly for a file
 src/Tree/TreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/Tree/TreeNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tree/TreeNode.cpp.s
 .PHONY : src/Tree/TreeNode.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -1551,6 +1693,7 @@ src/main.obj: src/main.cpp.obj
 # target to build an object file
 src/main.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -1559,6 +1702,7 @@ src/main.i: src/main.cpp.i
 # target to preprocess a source file
 src/main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -1567,6 +1711,7 @@ src/main.s: src/main.cpp.s
 # target to generate assembly for a file
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-feyzgok.dir\build.make CMakeFiles/graph-puzzle-game-feyzgok.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -1582,6 +1727,7 @@ help:
 	@echo ... Polynomial
 	@echo ... TestLinkedList
 	@echo ... graph-puzzle-game-feyzgok
+	@echo ... main
 	@echo ... Test/LinkedListTest.obj
 	@echo ... Test/LinkedListTest.i
 	@echo ... Test/LinkedListTest.s

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Element.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj.d"
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Evaluate.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj.d"
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Stack.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj.d"
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Token.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Element.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Element.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Evaluate.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Stack.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Stack.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/Array/MathematicalExpression/Token.cpp" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/src/Array/MathematicalExpression/Token.cpp.obj.d"
   )
 
 # Targets to which this target links.

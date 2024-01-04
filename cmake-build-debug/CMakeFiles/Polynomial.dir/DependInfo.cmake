@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Polynomial.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj.d"
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Term.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj.d"
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TermNode.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj.d"
-  "C:/Users/fg028327/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TestPolynomial.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Polynomial.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Polynomial.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/Term.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/Term.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TermNode.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TermNode.cpp.obj.d"
+  "C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-feyzgok/src/List/Polynomial/TestPolynomial.cpp" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj" "gcc" "CMakeFiles/Polynomial.dir/src/List/Polynomial/TestPolynomial.cpp.obj.d"
   )
 
 # Targets to which this target links.
